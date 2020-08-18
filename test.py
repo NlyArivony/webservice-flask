@@ -9,7 +9,7 @@ def hello():
 
 @app.route('/<name>')
 def hello_name(name):
-    return "Hello {}!".format(name)
+    return "Hello tout le monde {}!".format(name)
 
 if __name__ == '__main__':
     app.run()
